@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container_navbar {
+    background-color: black;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navlink {
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlink .navlinks_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.navlink .navlinks_right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+}
+
+.navlinks_left .navlinks_left_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+
+
+}
+
+.linksU,
+.linksB,
+.linksC,
+.linksCr,
+.linksCre,
+.linksS {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.linksB,
+.linksC,
+.linksCr,
+.linksCre {
+    margin-right: 45px;
+    margin-right: 45px;
+    background-color: none;
+
+}
+
+.linksC{
+    width: 192px;
+}
+
+
+
+.btn_right1 {
+    background-color: rgb(50, 129, 238);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 14px 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.btn_right2 {
+    background-color: rgba(55, 55, 48, 0.656);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 14px 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.btn_left {
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 4px 5px;
+}
+
+.fagithub {
+    margin-right: 5px;
+    font-size: 20px;
+    text-align: center;
+    background: none;
+    background-color: none;
+}
+
+.faplus {
+    margin-right: 5px;
+    font-size: 20px;
+    background: none;
+    background-color: none;
+}
+
+.back_end {
+    background-color: rgba(41, 40, 40, 0.772);
+ }
+
+ .btn_challenge{
+    display: flex;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+ }
+
+ .btn_challenge:hover {
+    background-color: rgba(41, 40, 40, 0.772);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+}
+
+ .btns {
+    
+    display: flex;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+}
+
+.btns:hover {
+    background-color: rgba(41, 40, 40, 0.772);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+}
+

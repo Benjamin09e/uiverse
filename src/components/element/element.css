@@ -1,0 +1,42 @@
+
+.element_container{
+    width: 80%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(39, 36, 36);
+    color: white;
+    border-radius: 8px;
+    height: 50vh;
+    margin-top: 30px;
+}
+
+.element_container:hover {
+    transform: scale(1.05);
+    transition: 0,2s;
+}
+
+.element_container .element_content{
+    width: 94%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.element_content .element_left{
+    width: 65%;
+    display: flex;
+}
+
+.element_content .element_right{
+    width: 35%;
+    display: flex;
+    border-radius: 30px;
+}
+
+.element_right .element_image{
+    border-radius: 40px;
+}
+

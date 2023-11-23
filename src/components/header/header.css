@@ -1,0 +1,20 @@
+.content_part{
+    width: 92%;   
+}
+
+.content_part .brower_element{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_part .element_right{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.content_part .element_left{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}

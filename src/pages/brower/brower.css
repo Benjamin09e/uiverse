@@ -1,0 +1,28 @@
+
+
+.brower_container .main_content{
+    display: flex;
+    width: 100%;
+}
+
+.brower_container .brower_content{
+    width: 85%;
+    height: max-content;
+    color: white;
+}
+
+.card_element{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.brower_content .content_part{
+    width: 92%;
+    
+   
+}
+
